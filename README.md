@@ -1,2 +1,0 @@
-# HiLoGame
-Hi-Lo Game
