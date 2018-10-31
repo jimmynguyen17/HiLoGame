@@ -59,7 +59,7 @@ class App extends Component {
       cardsInPile: 1,
       currentGuess: '',
       turnsPlayed: 0,
-      eogMessage: 'crapbag'
+      eogMessage: ''
     });
     
     this.cards.current.shuffleDeck()
