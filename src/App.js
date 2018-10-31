@@ -100,7 +100,7 @@ class App extends Component {
     //check for end of game
     if (this.state.cardsRemaining === 0) {
       this.setState({
-        eogMessage: 'Congratulations, player ' + ((this.state.scores[1]>this.state.scores[2]) ? '1' : '2') + ' wins!' //TODO: handle case where they tie
+        eogMessage: 'Congratulations, player ' + ((this.state.scores[1]<this.state.scores[2]) ? '1' : '2') + ' wins!' //TODO: handle case where they tie
       })
 
       //TODO: disable all buttons except Reset
